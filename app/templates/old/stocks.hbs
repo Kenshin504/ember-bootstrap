@@ -1,0 +1,37 @@
+<NavBar />
+<SideBar />
+<Content>
+  
+  <h2>Stocks</h2>
+  
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Price</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Supplier</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each (array 1 2 3 4 5 6 7 8 9) as |index|}}
+        <tr>
+          <td>xxxxxxx</td>
+          <td>₱00.00</td>
+          <td>xx/xx/xxxx</td>
+          <td>INCOMPLETE</td>
+          <td>Mx. lastName</td>
+          <td>Placeholder</td>
+          <td>x pcs</td>
+          <td>₱00.00</td>
+          <td>₱00.00</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</Content>
