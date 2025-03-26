@@ -16,7 +16,7 @@ Router.map(function () {
   this.route('account');
   this.route('charts');
   this.route('notifications');
-  this.route('orders');
+  this.route('stocks');
   this.route('reset-password');
   this.route('settings');
 });
