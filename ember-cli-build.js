@@ -12,3 +12,9 @@ module.exports = function (defaults) {
 
   return app.toTree();
 };
+
+let app = new EmberApp(defaults, {
+  fingerprint: {
+    prepend: 'https://github.com/Kenshin504/ember-bootstrap'
+  }
+});
